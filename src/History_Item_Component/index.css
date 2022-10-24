@@ -1,0 +1,35 @@
+.eachItemCon {
+  display: flex;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.deleteIcon {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  outline: none;
+  background-color: white;
+  border-style: none;
+}
+.time {
+  width: 15%;
+  text-align: center;
+}
+.historyDetails {
+  display: flex;
+  width: 70%;
+}
+.info {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.icon {
+}
+.domain {
+  height: 24px;
+}

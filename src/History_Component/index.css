@@ -1,0 +1,75 @@
+.parentCon {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.topSearchBarCon {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.searchLogoCon {
+  background-color: #2850a7;
+  margin-right: 10px;
+  width: 48px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sizeHistoryLogo {
+}
+
+.searchWithIconCon {
+  display: flex;
+
+  width: 50%;
+  justify-content: center;
+}
+.logoImgCon {
+  width: 34%;
+  text-align: start;
+  /* background-color: red; */
+}
+.searchIcon {
+}
+
+.inputEl {
+  background-color: #2850a7;
+  outline: none;
+  border-style: none;
+  width: 24vw;
+  padding-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.bottomHistoryCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.BottomCard {
+  background-color: #f8fafc;
+  height: 87vh;
+  box-shadow: 1px 1px 5px cadetblue, 1px 1px 5px white;
+  width: 90%;
+  border-radius: 10px;
+}
+.NoHistoryCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 87vh;
+  color: #475569;
+  font-size: 21px;
+}
+
+.styleSearch {
+  border-style: solid;
+  border-color: aquamarine;
+  border-radius: 4px;
+}
